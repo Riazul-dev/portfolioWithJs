@@ -188,7 +188,6 @@ nav .menuBar:hover {
 /* Hero section */
 
 .hero {
-  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   gap: 4rem;
@@ -196,7 +195,6 @@ nav .menuBar:hover {
   align-items: center;
   text-align: center;
   background-color: var(--bg_body);
-  /* padding: 2.5rem; */
   padding: 8rem 2.5rem 2.5rem 2.5rem ;
 
 
@@ -209,12 +207,16 @@ nav .menuBar:hover {
 .heroImg {
   width: 10rem;
   height: 10rem;
-  background-color: red;
   border-radius: 50%;
   overflow: hidden;
 
   @media (min-width: 769px) {
     order: 1;
+  }
+
+  @media (min-width: 1024px) {
+    width: 20rem;
+    height: 20rem;
   }
 }
 
